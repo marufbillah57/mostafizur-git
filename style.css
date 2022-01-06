@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.tomato-color{
+    color: tomato;
+}
+.red-color{
+    color: red;
+}
+.red-btn{
+    background-image: linear-gradient(red, salmon);
+    color: white;
+    padding: 15px 30px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.subscribe-btn{
+    padding: 12px 30px;
+    background-image: linear-gradient(rgb(247, 26, 136), rgb(218, 27, 27)) ;
+    border: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.display-flex{
+    display: flex;
+    padding-bottom: 30px;
+}
+.mission-area{
+    padding-top: 50px;
+}
+.w-40{
+    width: 40%;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+.w-50{
+    width: 40%;
+    margin: 20px auto;
+    padding-left: 70px;
+}
+.bg-dark{
+    padding: 15px;
+    background-color: #0f0d0f;
+    margin-top: 15px;
+}
+#bg-grey{
+    background-color: rgb(139, 133, 133);
+    border-radius: 15px;
+}
+#bg-brown{
+    background-color: rgb(231, 213, 198);
+    border-radius: 15px;
+}
+#bg-burly{
+    background-color:burlywood;
+    border-radius: 15px;
+}
+
+#stay-focused{
+    border-left: 3px solid tomato;
+    padding-left: 15px;
+}
+.mission-img img{
+    width: 80%;
+}
+
+.my-mission-area{
+    text-align: center;
+    padding: 50px;
+    width: 90%;
+    margin: auto;
+}
+.my-mission{
+    justify-content: space-evenly;
+}
+.single-mission{
+    width: 400px;
+    padding-top: 40px;
+}
+.single-img{
+    text-align: left;
+    padding-left: 30px;
+}
+.single-img img{
+    width: 30%;
+}
+.mission-content{
+    padding: 30px;
+    text-align: left;
+}
+
+
+
+.develop-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.develop-area .content {
+    padding-left: 2%;
+}
+.image-area img{
+    width: 80%;
+}
+
+
+.about-area {
+    width: 90%;
+    margin: auto;
+    padding-left: 3%;
+}
+.newsletter{
+    padding: 30px;
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.newsletter input{
+    padding: 10px 50px;
+}
+/* .about-content{
+    width: 65%;
+}
+#sidebar{
+    width: 30%;
+    color: white;
+} */
+
+.footer-content{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
